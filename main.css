@@ -1,0 +1,114 @@
+h1 {
+    text-
+}
+
+/* FONDO DE PROGRESSIONN */
+        .fondo-card {
+            background-image: url(`../imagenes/descarga1.png`);
+            background-repeat: no-repeat;
+            background-position: 85% top;
+        }
+
+        /* Alinear horizontal y vertical */
+        .jp-align {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            display: ;
+        }
+
+
+
+        /* Div visuales momentaneos 400px */
+        .tamaño {
+            height: 400px;
+        }
+    
+ /* <!-- ========================================  CARROUSEL ================================= -- */
+
+        .carousel-inner {
+            max-height: 39rem;;
+        }
+
+
+ /* <!-- ========================================  PROGRESSION ================================= -- */
+@media (min-width: 600px) {
+  .prueba {
+    display: none;
+  }
+}
+
+#prueba {
+    width: 50%;
+}
+
+ /* <!-- ========================================  IMAGEN FONDO ROJO ================================= -- */
+.conten:before {
+    content:"";
+    width: 100%;
+    background-color: red;
+    height: 100%;
+    opacity: 0.5;
+ position: absolute;
+}
+
+
+ .barra-whey {
+     background-image: url"(..\imagenes\barrawhey.jpg)";
+ }
+
+ /* <!-- ========================================  Media QUERY PRUEBAS ================================= -- */
+
+ /* YES TITLE HERE - 0 a 391 muestra esto */
+@media (max-width: 391px) {
+.no-display {
+  display: none;
+}
+}
+ /* YES TITLE HERE - < a 391 muestra esto */
+
+@media (min-width: 391px) {
+.no-display2 {
+  display: none;
+}
+}
+
+
+
+ /* <!-- ========================================  PRUEBAS  ================================= -- */
+
+  .imagebox {
+    background: black;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    }
+    
+    .imagebox img {
+    opacity: 1;
+    transition: 0.5s opacity;
+    }
+    
+    .imagebox .imagebox-desc {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0px;
+    color: white;
+    font-size: 1.2em;
+    left: 0px;
+    padding: 5px 15px;
+    position: absolute;
+    transition: 0.5s padding;
+    text-align: center;
+    width: 100%;
+    }
+    
+    .imagebox:hover img {
+    opacity: 0.7;
+    }
+    
+    .imagebox:hover .imagebox-desc {
+    padding-bottom: 10%;
+    }
+
+ /* <!-- ========================================  LATEST  ================================= -- */
