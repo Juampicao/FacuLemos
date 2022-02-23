@@ -1,30 +1,42 @@
 
-/* FONDO DE PROGRESSIONN */
-.fondo-card {
-background-image: url(`../imagenes/descarga1.png`);
-background-repeat: no-repeat;
-background-position: 85% top;
-}
-
-
             /* Div visuales momentaneos 400px */
   .tamaño {
         height: 400px;
  }
-    
- /* <!-- ========================================  CARROUSEL ================================= -- */
 
+
+ .hover {
+   cursor: pointer;
+ }
+
+ .banner-text {
+   transform: translate(-30%, -80%);
+ }
+
+ .fondo-card {
+background-image: url('../FacuLemos/imagenes/fondo-card.jpg');  
+background-repeat: no-repeat;
+background-position: 85% top;
+ }
+
+ .progresion {
+ }
+
+ /* <!-- ========================================  MEDIA QUERY ================================= -- */
+
+ /* Barra whey */
+ @media (max-width: 600px) {
+.mq-whey {
+  margin-top: 20px;
+  padding-right: 0px;
+}
+  
+/* carrousel */
 .carousel-inner {
 max-height: 39rem;;
 }
 
 
- /* <!-- ========================================  PROGRESSION ================================= -- */
-@media (max-width: 400px) {
-  .icono-wrap {
-    flex: wrap;
-  }
-}
 
  /* <!-- ========================================  IMAGEN d FONDO  ================================= -- */
 .conten:before {
@@ -36,24 +48,4 @@ max-height: 39rem;;
  position: absolute;
 }
 
-
- .barra-whey {
-     background-image: url"(..\imagenes\barrawhey.jpg)";
- }
-
- /* <!-- ========================================  Media QUERY PRUEBAS ================================= -- */
-
- /* YES TITLE HERE - 0 a 391 muestra esto */
-@media (max-width: 391px) {
-.no-display {
-  display: none;
-}
-}
- /* YES TITLE HERE - < a 391 muestra esto */
-
-@media (min-width: 391px) {
-.no-display2 {
-  display: none;
-}
-}
 
