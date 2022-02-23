@@ -18,6 +18,7 @@ Problemas generales sin solución:
 2) Espacios a los costados de los divs, si no es con col-2, uso paddings fijos? ya que w-75 me quedan mal.
 3) la NAV-BAR no me deja tirarla a la derecha (la haria con text-end o flex-row-reverse pero no me deja. 
 4) No me queda bien el BANNER principal con la card de TITLE HERE. No me quedan tamaño proprocionado a medida que voy achicando pantalla. 
+5) Adecuar tamaño de letra/elementos al div padre.
 
 - Falta cambiar colores usados y font size / Algunos tamaños
 - Faltan centrar algunas cosas
